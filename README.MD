@@ -21,7 +21,8 @@ A browser
 # Usage
 
 ```javascript
-var pingplot; // for example you want to plot ping data over time
+// for example you want to plot ping rates
+var pingplot; 
 pingplot=new PocketPlot(refreshRate,maxY,label);
 
 //arguments :
