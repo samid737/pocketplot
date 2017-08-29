@@ -29,6 +29,7 @@ pingplot=new PocketPlot(refreshRate,maxY,label);
 //  maxY (in dev)   : the highest value of your input variable
 //  label (in dev)  : the label of your input variable
 
+
 ```
 then supply your variable to pingplot.draw(), which returns the string:
 
