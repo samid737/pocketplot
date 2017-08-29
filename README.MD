@@ -21,13 +21,13 @@ A browser
 # Usage
 
 ```javascript
-var pingplot=new PocketPlot(refreshRate,maxY,label);
+var pingplot; // for example you want to plot ping data over time
+pingplot=new PocketPlot(refreshRate,maxY,label);
 
 //arguments :
 //  refreshRate     : draw graph every refreshRate ms
 //  maxY (in dev)   : the highest value of your input variable
 //  label (in dev)  : the label of your input variable
-
 
 ```
 then supply your variable to pingplot.draw(), which returns the string:
