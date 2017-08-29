@@ -32,7 +32,7 @@ pingplot=new PocketPlot(refreshRate,maxY,label);
 
 
 ```
-then supply your variable to pingplot.draw(), which returns the string:
+then to display the graph,supply ping parameter to pingplot.draw(), which returns the plot as a single tring:
 
 ```javascript
 var ping =0;
