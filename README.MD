@@ -1,4 +1,4 @@
-Pocket plot draws data in a single DOM text element. [Demo](https://samid737.github.io/pocketplot/)
+Pocket plot displays graph data in a single DOM text element. [Demo](https://samid737.github.io/pocketplot/)
 
 # Description
 
