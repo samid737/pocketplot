@@ -20,21 +20,22 @@ A browser
 
 # Usage
 
+First create A PocketPlot instance:
 ```javascript
-// for example you want to plot ping rates
 var pingplot; 
 pingplot=new PocketPlot(refreshRate,maxY,label);
 
 //arguments :
 //  refreshRate     : draw graph every refreshRate ms
-//  maxY (in dev)   : the highest value of your input variable
-//  label (in dev)  : the label of your input variable
+//  maxY (TODO)   : the highest value of your input variable
+//  label (TODO)  : the label of your input variable
 
 
 ```
-then to display the graph,supply ping parameter to pingplot.draw(), which returns the plot as a single tring:
+then to display A graph,supply the corresponding input parameter to pingplot.draw(), which returns the graph as a single concatenated tring. for example you want to plot network latency:
 
 ```javascript
+
 var ping =0;
 setInterval(changeping,50);
 
