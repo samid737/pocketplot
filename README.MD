@@ -1,8 +1,6 @@
-Pocket plot displays graph data in a single DOM text element. [Demo](https://samid737.github.io/pocketplot/)
+Pocket plot displays graph data in a single DOM text element. [Demo](https://samid737.github.io/pocketplot/).A quick and convenient way to display graph data over time.
 
 # Description
-
-A quick and convenient way to display graph data over time.
 
 A graph is text only and consists of scanlines:
 
